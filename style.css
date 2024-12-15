@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+.inner-body{
+    max-width: 1440px;
+    width: 70%;
+    margin: auto;
+}
+
+section{
+    margin-top: 5em;
+}
+
+.nav-bar{
+    background-color: rgb(2, 72, 151);
+    padding-block: 1em;
+    color: white;
+}
+
+.nav-bar a{
+    color: white !important;
+}
+
+@keyframes fade{
+    from {transform: translateY(10px); opacity: 0;}
+    to {transform: translateY(0px); opacity: 1;}
+}
+
+.fade{
+    animation: fade .5s ease-in-out;
+}
+
+.fade-1{
+    animation: fade .5s ease-in-out;
+}
+
+.full-img{
+    width: 25em;
+    height: 25em;
+}
+
+.location-img, .topology-img{
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+.location-desc{
+    align-content: center;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+}
+
+
+.border-header{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 1.5px 3px  8px rgba(0, 0, 0, 0.5);
+}
+
+.border-content{
+    margin-top: 20px;
+    padding-block: 1em;
+    padding-inline: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 1.5px 3px  8px rgba(0, 0, 0, 0.5);
+    width: 90%;
+}
+
+.border-img{
+    width: 15em;
+    height: 15em;
+    align-self: center;
+}
+
+.full-img-2{
+    width: 80%;
+    height: 80%;
+    align-self: center;
+}
+
+.section-peralatan{
+    width: 100%;
+}
+
+footer{
+    background-color: rgba(2, 72, 151);
+    color: white;
+}
+
+
+
+div .card{
+    position: static;
+}
+
+.flex-layout{
+    display: flex;
+}
+
+.flex-reverse-layout{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.gap-5{
+    gap: 5em;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.top-0{
+    top: 0;
+}
+
+.left-0{
+    left: 0
+}
+
+.right-0{
+    right: 0;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.text-end{
+    text-align: end;
+}
